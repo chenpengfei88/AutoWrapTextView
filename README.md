@@ -2,6 +2,7 @@
 自动换行解决中英文文本排版TextView
 
 # 使用方法
+```
 
  <com.free.autowraptextview.widget.AutoWrapTextView
         android:id="@+id/awtextview"
@@ -13,6 +14,7 @@
         app:paddingTop="10dp"
         app:paddingBottom="10dp"
   />
+  ```
         
 public class MainActivity extends AppCompatActivity {
 
