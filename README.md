@@ -27,3 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
+# 效果
+
+ ![image](https://github.com/chenpengfei88/AutoWrapTextView/blob/master/app/src/main/res/drawable/atxgt.png)
