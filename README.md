@@ -31,3 +31,16 @@ public class MainActivity extends AppCompatActivity {
 # 效果
 
  ![image](https://github.com/chenpengfei88/AutoWrapTextView/blob/master/app/src/main/res/drawable/atxgt.png)
+ 
+# 自定义属性
+
+ <declare-styleable name="AutoWrapTextViewStyle">
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="lineSpacingExtra" format="integer" />
+ </declare-styleable>
+
