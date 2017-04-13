@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
  
 # 自定义属性
 
- <declare-styleable name="AutoWrapTextViewStyle">
+    <declare-styleable name="AutoWrapTextViewStyle">
         <attr name="paddingLeft" format="dimension" />
         <attr name="paddingTop" format="dimension" />
         <attr name="paddingRight" format="dimension" />
@@ -42,5 +42,6 @@ public class MainActivity extends AppCompatActivity {
         <attr name="textSize" format="dimension" />
         <attr name="textColor" format="color" />
         <attr name="lineSpacingExtra" format="integer" />
- </declare-styleable>
+    </declare-styleable>
+
 
