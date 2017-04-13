@@ -1,7 +1,7 @@
 # AutoWrapTextView
 自动换行解决中英文文本排版TextView
 
-####使用
+# 使用方法
 
  <com.free.autowraptextview.widget.AutoWrapTextView
         android:id="@+id/awtextview"
