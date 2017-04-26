@@ -6,7 +6,7 @@ import com.free.autowraptextview.widget.AutoWrapTextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String text = "密码：jokG5456KL542356jsjdherGHS";
+    private String text = "text密码：jokG5456KL542356jsjdherGHS";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +14,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ((AutoWrapTextView) findViewById(R.id.awtextview)).setText(text);
-
     }
 }

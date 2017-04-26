@@ -11,12 +11,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.fee.awtextview.MainActivity">
 
-
     <com.free.autowraptextview.widget.AutoWrapTextView
         android:id="@+id/awtextview"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        app:paddingLeft="10dp"
+        app:paddingRight="10dp"
+        app:paddingTop="10dp"
+        app:paddingBottom="10dp"
+        />
+
+    <com.free.autowraptextview.widget.AutoWrapTextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        app:text="密码：jokG5456KL542356jsjdherGHS"
         app:paddingLeft="10dp"
         app:paddingRight="10dp"
         app:paddingTop="10dp"

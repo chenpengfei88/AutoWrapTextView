@@ -22,6 +22,7 @@ import java.util.List;
 public class AutoWrapTextView extends View {
 
     private TextPaint mTextPaint;
+    private String mText;
     private int mTextSize;
     private int mTextColor;
     private int mLineSpacingExtra;
@@ -74,6 +75,8 @@ public class AutoWrapTextView extends View {
     private void init(Context context, AttributeSet attrs) {
         initStyle(context, attrs);
         initPaint();
+
+        setText(mText);
     }
 
     private void initStyle(Context context, AttributeSet attrs) {
@@ -83,6 +86,7 @@ public class AutoWrapTextView extends View {
         mPaddingTop = typedArray.getDimensionPixelSize(R.styleable.AutoWrapTextViewStyle_paddingTop, 0);
         mPaddingBottom = typedArray.getDimensionPixelSize(R.styleable.AutoWrapTextViewStyle_paddingBottom, 0);
 
+        mText = typedArray.getString(R.styleable.AutoWrapTextViewStyle_text);
         mTextColor = typedArray.getColor(R.styleable.AutoWrapTextViewStyle_textColor, Color.BLACK);
         mTextSize = typedArray.getDimensionPixelSize(R.styleable.AutoWrapTextViewStyle_textSize, 50);
         mLineSpacingExtra = typedArray.getInteger(R.styleable.AutoWrapTextViewStyle_lineSpacingExtra, 7);
